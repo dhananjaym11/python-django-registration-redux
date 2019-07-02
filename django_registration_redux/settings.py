@@ -48,10 +48,6 @@ SITE_ID = 1
 LOGIN_REDIRECT_URL = '/'
 LOGIN_URL = '/accounts/login/'
 
-if DEBUG:
-    EMAIL_BACKEND = 'django.core.mail.backends.dummy.EmailBackend'
-
-
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
